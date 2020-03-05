@@ -1038,7 +1038,7 @@ is in the authors of `book` and otherwise `false`.
 (has-author? little-schemer octavia)   ;=> false
 ```
 
-### X
+---
 Does our previous definition for `all-author-names` still work? It does, but
 let's take another look at it.
 
@@ -1074,7 +1074,7 @@ Write the function `(authors books)` that returns the authors of every book in
 (authors [cities, wild-seed, embassytown]) ;=> #{china, octavia}
 (authors [little-schemer, cities])         ;=> #{china, friedman, felleisen}
 ```
-### X
+---
 
 Now that we have all of our authors, defining `all-author-names` should be
 simple.
@@ -1115,7 +1115,7 @@ You can assume that every author with a `:death-year` also has a
 Hint: you probably want to split this string into two parts: name and years.
 Use `let` to form these and use `str` to create the final string.
 
-### X
+---
 
 Now we have a string representation for a single author. Some of our books had
 multiple authors, so we need to figure out a way to give a string
@@ -1154,7 +1154,7 @@ following manner:
 
 Since the authors are in a set, which doesn't have a predefined order, the
 resulting string can have the authors in any order.
-### X
+---
 
 Now that we can handle the case of multiple authors, we can move on to the
 string representation of a single book.
@@ -1171,7 +1171,7 @@ and returns a string representation of `book` as follows:
 ```
 
 Again, the order of authors in the string doesn't matter.
-### X
+---
 
 And finally, we can define a string representation for a sequence of books.
 
@@ -1186,7 +1186,7 @@ parameter and returns a string representation of `books` like this:
 (books->string [little-schemer, cities, wild-seed])
 ;=> "3 books. The Little Schemer, written by Daniel Friedman (1944 - ), Matthias Felleisen. The City and the City, written by China Miéville (1972 - ). Wild Seed, written by Octavia E. Butler (1947 - 2006)."
 ```
-### X
+---
 
 ## Filtering sequences
 
@@ -1219,7 +1219,7 @@ Hint: `has-author?`
 (books-by-author china books)   ;=> (cities embassytown)
 (books-by-author octavia books) ;=> (wild-seed)
 ```
-### X
+---
 
 ```clojure
 (def authors #{china, felleisen, octavia, friedman})
@@ -1238,7 +1238,7 @@ Hint: remember `first`
 (author-by-name "China Miéville" authors)                   ;=> china
 (author-by-name "Goerge R. R. Martin" authors)              ;=> nil
 ```
-### X
+---
 
 ### Exercise
 Write the function `(living-authors authors)` that takes a sequence of authors
@@ -1252,7 +1252,7 @@ and returns those that are alive. Remember `alive?`.
 
 The order in the results doesn't matter.
 
-### X
+---
 
 Here's another book. This one has both living and dead authors, which is a
 useful test case for the following exercises.
