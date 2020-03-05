@@ -2,15 +2,12 @@
 
 ![](https://imgs.xkcd.com/comics/lisp_cycles.png)
 
-This, for now, it just an adaptation of [Functional Programming in Clojure](https://iloveponies.github.io/) by Juhana Laurinharju and Jani Rahkola, and originally part of the CS study of the University of Helsinki.
+Welcome to the Academy, where we learn to wield the weapons of a more civilized age.
 
-This series of exercises is how I learned the basics of the language, and now I will pass it on.
+This site has two parts:
 
-
-## How to do this course
-
-There are several lessons, for a variety of basic topics of Clojure. Each lesson will have a little bit of an explanation, which you can find in the appropriate page and a practical part.
-The practical part can be found in the appropriate clojure file under the `src` folder. In these files you will need to finish the implementation of a few functions. In order to test your implementation, you will run a command from the terminal which is going to run some tests. When all tests pass, you finished the lesson!
+- **Learning the basic of Clojure**, which is a rework of [Functional Programming in Clojure](https://iloveponies.github.io/) by Juhana Laurinharju and Jani Rahkola (and how I learned the basics of the language), adapted to the state of the Clojure ecosystem in 2020.
+- **Clojure in real life**, a series of practical tips on getting started with the language. Consider this an opinionated list of what to do and not to do to build a real-world Clojure project. 
 
 
 ## Getting started
@@ -27,6 +24,12 @@ user=>
 ```
 
 All is well, Press `Ctrl-D` and exit from the REPL.
+
+# Learning the basics of Clojure
+
+There are several lessons, for a variety of basic topics of Clojure. Each lesson will have a little bit of an explanation, which you can find in the appropriate page and a practical part.
+The practical part can be found in the appropriate clojure file under the `src` folder. In these files you will need to finish the implementation of a few functions. In order to test your implementation, you will run a command from the terminal which is going to run some tests. When all tests pass, you finished the lesson!
+
 
 ## [Training day](training-day)
 
@@ -45,3 +48,5 @@ All is well, Press `Ctrl-D` and exit from the REPL.
 ## Looping is recursion
 
 ## One Function to rule them all
+
+# Clojure in real-life
