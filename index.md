@@ -9,7 +9,7 @@ This site has two parts:
 - **Learning the basic of Clojure**, which is a rework of [Functional Programming in Clojure](https://iloveponies.github.io/) by Juhana Laurinharju and Jani Rahkola (and how I learned the basics of the language), adapted to the state of the Clojure ecosystem in 2020.
 - **Clojure in real life**, a series of practical tips on getting started with the language. Consider this an opinionated list of what to do and not to do to build a real-world Clojure project. 
 
-The source of this repo is available at https://www.github.com/Heliosmaster/academy 
+The source of this repo is available at [https://github.com/Heliosmaster/academy](https://github.com/Heliosmaster/academy) 
 
 ## Getting started
 
