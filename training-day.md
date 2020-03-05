@@ -65,7 +65,7 @@ In the table below, we see a few examples of mathematical operations in C, Java 
 |---|---|
 | `1 + 2`  | `(+ 1 2)`  |
 | `7 * 3` | `(* 3 7)` |
-| `10 - 2*4` | `(- 10 (* 2 4)`|
+| `10 - 2*4` | `(- 10 (* 2 4))` |
 | ` 1 + 2 + 3 + 4` | `(+ 1 2 3 4)` |
 
 Clojure uses the [prefix notation](https://en.wikipedia.org/wiki/Polish_notation), which means we **always** put the function as the first argument in our expression. In many other languages, the mathematical operators have special properties, whereas in Clojure they don't get any preferential treatment. `+` is just a function (called `+`) as all `-`, `*`, `/`, etc. 

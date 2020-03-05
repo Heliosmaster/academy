@@ -28,9 +28,9 @@ user=>
 
 All is well, Press `Ctrl-D` and exit from the REPL.
 
-## [Training day](training-day.html)
+## [Training day](training-day)
 
-## I am a horse in the land of booleans
+## [I am a horse in the land of booleans](i-am-a-horse-in-a-land-of-booleans)
 
 ## Structured data
 
