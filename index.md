@@ -35,7 +35,7 @@ The practical part can be found in the appropriate clojure file under the `src` 
 
 ## [I am a horse in the land of booleans](i-am-a-horse-in-a-land-of-booleans)
 
-## Structured data
+## [Structured data](structured-data)
 
 ## Style
 
