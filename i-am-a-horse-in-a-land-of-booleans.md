@@ -1,5 +1,11 @@
 # I am a horse in a land of booleans
 
+To run the tests of this lesson, run from your terminal
+
+```bash
+ bin/kaocha --focus academy.i-am-a-horse-in-a-land-of-booleans-test
+ ```
+
 Any non-trivial program needs conditionals. Clojure’s if looks like the following:
 
 ## If then else

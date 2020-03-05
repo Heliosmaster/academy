@@ -6,6 +6,12 @@ structures:
 - [ClojureDocs]
 - [Clojure cheatsheet][cheat]
 
+To run the tests of this lesson, run from your terminal
+
+```bash
+ bin/kaocha --focus academy.structured-data-test
+ ```
+
 
 ## Let there be names
 
