@@ -42,7 +42,7 @@ The practical part can be found in the appropriate clojure file under the `src` 
 
 ## [Pokerface](pokerface)
 
-## Predicates
+## [Predicates](predicates)
 
 ## Recursion
 
