@@ -38,9 +38,9 @@ The practical part can be found in the appropriate clojure file under the `src` 
 
 ## [Structured data](structured-data)
 
-## Style
+<!-- ## Style -->
 
-## P-P-P-Pokerface
+## [Pokerface](pokerface)
 
 ## Predicates
 
