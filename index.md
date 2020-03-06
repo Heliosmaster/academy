@@ -44,7 +44,7 @@ The practical part can be found in the appropriate clojure file under the `src` 
 
 ## [Predicates](predicates)
 
-## Recursion
+## [Recursion](recursion)
 
 ## Looping is recursion
 
