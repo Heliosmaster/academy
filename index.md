@@ -48,6 +48,6 @@ The practical part can be found in the appropriate clojure file under the `src` 
 
 ## [Looping is recursion](looping-is-recursion)
 
-## One Function to rule them all
+## [One Function to rule them all](one-function)
 
 # Clojure in real-life
